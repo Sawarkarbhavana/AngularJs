@@ -1,0 +1,6 @@
+[
+    {"username":"User 1", "location":"NY", "Org":"Marlabs"},
+    {"username":"User 2", "location":"albany", "Org":"facebook"},
+    {"username":"User 3", "location":"jersey", "Org":"google"},
+    {"username":"User 4", "location":"ohio", "Org":"linkedin"}
+]

@@ -1,0 +1,17 @@
+<p>{{pagetitle}}</p>
+
+<table border ="1" style="border-collapse: collapse">
+    <tr>
+        <th>Username</th>
+        <th>Location</th>
+        <th>Organization</th>
+        <th></th>
+        </tr>
+    <tr ng-reapeat="info in users track by $index">
+        <td>{{info.Username}}</td>
+        <td>{{info.Location}}</td>
+        <td>{{info.Organization}</td>
+        <a href="#/users/{{index}}">View user</a>
+        </td>
+    </tr>
+</table>
